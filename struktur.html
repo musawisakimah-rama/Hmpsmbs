@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Struktur Organisasi HMPS MBS</title>
+<style>
+:root{--hijau:#0b5d4b;--kuning:#f2c200}
+*{box-sizing:border-box}
+body{margin:0;font-family:'Segoe UI',sans-serif;background:#f4f6f5}
+header{background:linear-gradient(135deg,var(--hijau),#0f7661);color:white;text-align:center;padding:30px}
+nav{background:var(--kuning)}
+nav ul{list-style:none;display:flex;justify-content:center;margin:0;padding:12px;flex-wrap:wrap}
+nav ul li{margin:5px 15px}
+nav ul li a{text-decoration:none;color:var(--hijau);font-weight:600}
+section{max-width:1100px;margin:40px auto;background:white;padding:40px;border-radius:16px;animation:fadeUp .8s ease}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:25px;margin-top:30px}
+.card{background:#e6f4f1;border-radius:16px;padding:25px;text-align:center}
+.foto{width:110px;height:110px;background:#ccc;border-radius:50%;margin:0 auto 15px}
+h2,h3{color:var(--hijau)}
+footer{background:var(--hijau);color:white;text-align:center;padding:15px}
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Struktur Organisasi</h1>
+<p>HMPS Manajemen Bisnis Syariah</p>
+</header>
+
+<nav>
+<ul>
+<li><a href="index.html">Beranda</a></li>
+<li><a href="visi.html">Visi & Misi</a></li>
+<li><a href="struktur.html">Struktur</a></li>
+<li><a href="galeri.html">Galeri</a></li>
+<li><a href="kontak.html">Kontak</a></li>
+</ul>
+</nav>
+
+<section>
+<h2>Susunan Kepengurusan</h2>
+<p><i>HMPS MANAJEMEN BISNIS SYARI'AH</i></p>
+
+<div class="grid">
+  <div class="card">
+    <div class="foto"></div>
+    <h3>KETUA UMUM</h3>
+    <p>SURYA RAMADHAN</p>
+  </div>
+
+  <div class="card">
+    <div class="foto"></div>
+    <h3>WAKIL KETUA UMUM</h3>
+    <p>KHOIRUL ANAM</p>
+  </div>
+
+  <div class="card">
+    <div class="foto"></div>
+    <h3>SEKRETARIS UMUM</h3>
+    <p>RUHAMAU 'ULYA</p>
+  </div>
+  
+  <div class="card">
+    <div img src=ketum.jpg></div>
+    <h3>SEKRETARIS II</h3>
+    <p>NAJMA ZAHIROH</p>
+  </div>
+
+  <div class="card">
+    <div class="foto"></div>
+    <h3>BENDAHARA UMUM</h3>
+    <p>HAFIDZAH AUDIANA</p>
+  </div>
+</div>
+</section>
+
+<footer>&copy; 2026 HMPS Manajemen Bisnis Syariah</footer>
+
+</body>
+</html>
